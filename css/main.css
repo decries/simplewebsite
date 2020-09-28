@@ -1,0 +1,74 @@
+a {
+	text-decoration: none;
+}
+
+img {
+	transition-duration: 0.5s;
+}
+
+img:hover {
+	transform: translateY(-10px);
+}
+
+#header-text {
+	font-family: "dosis";
+	font-size: 50px;
+	color: white;
+	margin: 0%;
+}
+
+#header-text12 {
+	font-family: "dosis";
+	font-size: 50px;
+	color: white;
+	margin: 0%;
+}
+
+#header-text122 {
+	font-family: "dosis";
+	font-size: 50px;
+	color: white;
+	margin: 0%;
+}
+
+#center {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+#small-textt {
+  display: "absolute";
+	font-family: "dosis";
+	margin: 15px;
+	color: white;
+  text-align: center;
+}
+
+#msg123 {
+  display: "absolute";
+	font-family: "dosis";
+  left: 100%;
+  top: 100%;
+  color: white;
+  font-size: 5px;
+}
+
+#small-texttt {
+  display: "absolute";
+	font-family: "dosis";
+	margin: 15px;
+	color: white;
+}
+
+
+
+@font-face {
+	font-family: "dosis";
+	src: url("https://cdn.glitch.com/da03e47a-dd5a-4070-a0fd-7c27bf460af1%2Fwatchword-thin-demo.otf?v=1599486511498");
+}
