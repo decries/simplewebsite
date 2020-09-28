@@ -5,25 +5,28 @@
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
 		<meta charset="UTF-8">
-		<title>P R O D I G Y . C C </title>
+		<title>Wertly </title>
     <link rel="stylesheet" href="../cdn.glitch.com/da03e47a-dd5a-4070-a0fd-7c27bf460af1/star-animation0abe.css?v=1600438772040">
 		<link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="../cdn.glitch.com/da03e47a-dd5a-4070-a0fd-7c27bf460af1/background-anim19e4.css?v=1600438765135">
     <link rel="stylesheet" href="../cdn.glitch.com/da03e47a-dd5a-4070-a0fd-7c27bf460af1/volume-slider52a6.css?v=1600438773829">
+  <link rel="stylesheet" href="https://cdn.glitch.com/b63bb990-430e-41de-a954-7d658c0e1370%2Fstyle.css?v=1601296585244">
     <!--<script src="https://linkvertise.net/cdn/linkvertise.js"></script><script>linkvertise(55976, {whitelist: [], blacklist: ["discord.gg"]});</script>-->
 		<link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/750497039908864041/759899005781409802/86aad05f3080f6a9a8012ddfdbf7f10b.ico">
 		<script src="../code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" rossorigin="anonymous"></script>
     <script src="js/legit.js"></script>
     <script src="js/plugins.min.js"></script>
-    <meta name="description" content="Prodigy Download">
-		<meta name="keywords" content="Prodigy">
-		<meta name="author" content="Prodigy.cc">
+    <meta name="description" content="Wertly Download">
+		<meta name="keywords" content="Wertly">
+		<meta name="author" content="Wertly.">
 		<meta name="og:image" itemprop="image" content="https://cdn.discordapp.com/attachments/750497039908864041/759898495003262976/86aad05f3080f6a9a8012ddfdbf7f10b.jpg">
 		<meta name="theme-color" content="#8ca0fb">
-		<meta property="og:site_name" content="Covid-69">
-    <meta property="og:url" content="http://prodigy.cc">
-		<meta property="og:description" content="Prodigy Download">
+		<meta property="og:site_name" content="Wertly">
+    <meta property="og:url" content="https://wertly.glitch.me">
+		<meta property="og:description" content="Wertly Download">
 		<meta property="og:type" content="website">
+  
+  <script src="https://cdn.glitch.com/b63bb990-430e-41de-a954-7d658c0e1370%2Fparallax.js?v=1601296611529"></script>
 	</head>
 	<style>
 	#fixed{
@@ -32,9 +35,32 @@
     right:0px;
 	left:475px;
 }
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: url(https://cdn.glitch.com/b63bb990-430e-41de-a954-7d658c0e1370%2Fbackground.jpg?v=1601296026467);
+  background-attachment: fixed;
+}
+.mixBlnd {
+  background-blend-mode: screen;
+}
+
 </style>
   <body>
-    <p id="small-textt">Check the music below, updates everyday.</p>
+    <div class="container">
+		<ul id="scene">
+			<li class="layer" data-depth="1"><img src="https://cdn.glitch.com/b63bb990-430e-41de-a954-7d658c0e1370%2Fplanet1.png?v=1601296029470"></li>
+			<li class="layer" data-depth="-1"><img src="https://cdn.glitch.com/b63bb990-430e-41de-a954-7d658c0e1370%2Fplanet2.png?v=1601296032820"></li>
+			<li class="layer" data-depth="2"><img src="https://cdn.glitch.com/b63bb990-430e-41de-a954-7d658c0e1370%2Fastronaut.png?v=1601296036030"></li>
+			<li class="layer" data-depth="0.5"><img src="https://cdn.glitch.com/b63bb990-430e-41de-a954-7d658c0e1370%2Frocket.png?v=1601296039091"></li>
+		</ul>
+	</div>
+    
     <div id="stars2">
     </div>
     <div id="center">
@@ -46,18 +72,18 @@
 			<a href="https://cdn.discordapp.com/attachments/746592828825665577/755040635391574076/theguy3ds_GET_FUCKED.exe" target="_blank">
         <img src="https://img.icons8.com/nolan/64/downloading-updates.png" alt="Download"/>
 			</a>-->
-      <h1 id="header-text12">Prodigy</h1><br>
+      <h5 id="small-textt">Check the music below, updates everyday.</h5>
+      <h1 id="header-text12">Wertly</h1><br>
 			<a href="https://discord.gg/6VRgSJt" target="_blank">
-				<img src="../img.icons8.com/nolan/64/discord-logo.png" alt="Discord">
+				<img src="https://img.icons8.com/ios/50/000000/discord-logo.png"/>
 			</a>
 			<a href="https://cdn.discordapp.com/attachments/758656980717535243/758749592044044369/Covid_Loaderr.exe" target="_blank">
-        <img src="../img.icons8.com/nolan/64/downloading-updates.png" alt="Download"/>
+        <img src="https://img.icons8.com/fluent/48/000000/download.png"/>
 			</a>
 		</div>
 		<audio id = "fixed" controls autoplay loop>
 <source src = "music.mp3" type = "audio/mpeg">
 </audio>
-		</footer>
 
 		<script>
 			$('html').click(() => {
@@ -75,7 +101,10 @@
 	  }
     </script>   
 <script src="js/xd.js" charset="utf-8"></script>	
+  	<script>
+		var scene = document.getElementById('scene');
+		var parallax = new Parallax(scene);
+	</script>
  	</body>
 
-<!-- Mirrored from covid-69.glitch.me/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 27 Sep 2020 22:00:03 GMT -->
 </html>
