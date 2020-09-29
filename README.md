@@ -5,10 +5,13 @@ Simple Website (Download + Music + Discord)
 Edit what you want, add icons, href, etc.
 
 
-GG skids.
+## GG skids.
 (Copied From Covid-60)
+<br>
 Credits: Original Website: covid-69.glitch.me
+<br>
 Copied with: HTTTrack
+<br>
 :D
 
 # Help
